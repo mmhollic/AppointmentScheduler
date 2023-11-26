@@ -1,11 +1,7 @@
 package Vaccines;
 
 import Appointments.Appointment;
-import Appointments.VaccineAppointment;
-
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public abstract class Vaccine {

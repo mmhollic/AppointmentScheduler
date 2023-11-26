@@ -20,7 +20,8 @@ public class Patient {
     }
     public String getAppointmentsDisplay(){
         // Get a string displaying the appointment information for this patient
-        // Surround with html tags so it can be displayed in a JLabel
+        // Surround with <html></html> tags so it can be displayed in a JLabel with <br> to make newlines
+        // Note - if printing to the console instead, use \n instead of <br>
         String display=new String("<html>");
         display+="Patient: "+name+"<br>";
         display+=initialAppointment.getDisplayText();
